@@ -6,9 +6,10 @@ class SystemcAms < Formula
   license ""
   
   bottle do
+    root_url "https://metacollin.com/bottles"
     sha256 cellar: :any, monterey: "a99731f756e77939cb6fe4ce07066d3f146eb21719b35206b69151cd61693b6a"
   end
-  
+
   depends_on "systemc"
   depends_on "gnu-tar" => :build
 
