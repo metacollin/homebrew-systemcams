@@ -2,4 +2,5 @@
 
 ```brew tap metacollin/systemcams
    brew install systemc-ams
-   # go nuts````
+   # go nuts
+   ````
