@@ -4,10 +4,10 @@ class SystemcAms < Formula
   url "https://www.coseda-tech.com/files/Files/Proof-of-Concepts/systemc-ams-2.3.tar.gz", using: :nounzip
   sha256 "50e2a882ee17b8c7136dcb3936b1cd7ee7af96c8c982def1f4a4051c52bb6e9e"
   license ""
-  
+
   bottle do
     root_url "https://metacollin.com/bottles"
-    sha256 cellar: :any, monterey: "4e696185ee60913929c68e128e328ac8d4de967fc9c8cdf4e2702e21d24c61be"
+    sha256 cellar: :any, monterey: "c99e964658b29f4b2511b4cd8243ea56e0527ecb21deb52b1171df6d327f28cc"
   end
 
   depends_on "systemc"
